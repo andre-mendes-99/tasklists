@@ -31,7 +31,7 @@ void run_cli() {
         } else if (strcmp(command, "MT") == 0) {
             char* id = strtok(NULL, "\n");
             task_list_complete_task(task_list, id);
-            printf("Tarefa %s marcada como completada.\n", id);
+            printf("Tarefa %s marcada como completa.\n", id);
         } else {
             printf("Instrução inválida.\n");
         }
