@@ -41,17 +41,6 @@ char* task_list_add_task(TaskList task_list, char* description) {
     return task_get_id(task);
 }
 
-void task_list_remove_task(TaskList task_list, char* id) {
-    for (int i = 0; i < task_list->num_tasks; i++) {
-        char* task_id = task_get_id(task_list->tasks[i]);
-        if (strcmp(task_id, id) == 0) {
-            task_destroy(task_list->tasks[i]);
-            task_list->num_tasks--;
-            break;
-        }
-    }
-}
-
 void task_list_complete_task(TaskList task_list, char* id) {
     for (int i = 0; i < task_list->num_tasks; i++) {
         char* task_id = task_get_id(task_list->tasks[i]);
