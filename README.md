@@ -1,4 +1,4 @@
-# Programação e Algoritmos 2022 2023 - [IADE - UE](https://www.iade.europeia.pt/) <!-- omit in toc -->
+# Programação e Algoritmos - [IADE - UE](https://www.iade.europeia.pt/) <!-- omit in toc -->
 
 ## Lista de Tarefas
 
@@ -24,6 +24,8 @@ Alternativa
 
 ## Por completar
 
-- [ ] Retirar a limitação de 10 tarefas;
-- [ ] Permitir eliminar tarefas;
+- [ ] Sistematizar compilação e teste com Makefile.
+- [ ] Construir testes unitários para modelos e controladores.
+- [ ] Retirar a limitação de 10 tarefas.
+- [ ] Permitir eliminar tarefas.
 - [ ] Permitir listar tarefas ordenadamente por estado, id, ou descrição.
