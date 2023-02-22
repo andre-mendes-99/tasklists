@@ -24,8 +24,8 @@ Alternativa
 
 ## Por completar
 
-- [ ] Sistematizar compilação e teste com Makefile.
 - [ ] Construir testes unitários para modelos e controladores.
+- [ ] Sistematizar compilação e teste com Makefile.
 - [ ] Retirar a limitação de 10 tarefas.
 - [ ] Permitir eliminar tarefas.
 - [ ] Permitir listar tarefas ordenadamente por estado, id, ou descrição.
